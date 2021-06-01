@@ -5,11 +5,9 @@ public abstract class Box {
     int width;
     int height;
 
-    public boolean validate(int a, int b, int c) {
-        return (a <= length && b <= width && c <= height);
+    public boolean validate(int a ,int b ,int c){
+        return (a<=length && b<= width && c <= height);
     }
-
     public abstract String getName();
-
-    public abstract int getPrice();
+    public abstract  int getPrice();
 }
